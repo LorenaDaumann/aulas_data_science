@@ -39,4 +39,5 @@ Mas o Git ainda estava apontando para a URL HTTPS
 Então ele ignorava sua chave SSH
 
 #git commit -m "Atualiza aula5mod2.py" -   PARA ATUALIZAR ARQUIVO
-](url)
+#para criar uma nova branch  -> git checkout -b "nomedobranch"
+#trocar de branch <nomedobranch>
