@@ -1,28 +1,44 @@
+#PARA CRIAR PASTA DE AMBIENTE PARA O GIT: mkdir <nomedapasta>
+#cd <nomedapasta>
+#git init
+#AGORA NA TELA DO VSCODE: cd <nomedoArquivo.py>
+#git commit -m "mensagem aleatória ou descritiva"
+#crie um repositório no github depois disso
+#NO CMD DO VSCODE: git remote add origin https://github.com/LorenaDaumann/nove_do_repositorioooooooo.git
+#git status
+#git push
+#executar o que o push pedir
+
+#PARA COMMITAR: 
+#git add <nomedoarquivo>
+#git commit -m "Atualiza aula5mod2.py" -   PARA ATUALIZAR ARQUIVO
+#git push
+
+#para criar uma nova branch  -> git checkout -b "nomedobranch"
+
+#trocar de branch <nomedobranch>
+
+###########TODO COMMIT PRECISA DE UMA MENSAGEM#############
+
+
+
 [#Processo de upload no git (vou escrever depois)
 1️⃣ Veja a URL atual
 
 Rode:
-
 git remote -v
-
 Deve estar aparecendo algo assim:
-
 https://github.com/LorenaDaumann/aulas_data_science.git
-
 Se estiver https://, é isso que está causando o erro.
 
 2️⃣ Troque para SSH
-
 Execute:
-
 git remote set-url origin git@github.com:LorenaDaumann/aulas_data_science.git
 3️⃣ Confirme que mudou
 git remote -v
 
 Agora deve aparecer:
-
 git@github.com:LorenaDaumann/aulas_data_science.git
-
 (se aparecer isso, está certo ✅)
 
 4️⃣ Agora sim faça:
@@ -31,13 +47,6 @@ git push -u origin master
 E deve funcionar 🚀
 
 💡 O que aconteceu?
-
 Você configurou SSH corretamente
-
 Mas o Git ainda estava apontando para a URL HTTPS
-
 Então ele ignorava sua chave SSH
-
-#git commit -m "Atualiza aula5mod2.py" -   PARA ATUALIZAR ARQUIVO
-#para criar uma nova branch  -> git checkout -b "nomedobranch"
-#trocar de branch <nomedobranch>
